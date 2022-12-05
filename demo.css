@@ -15,6 +15,12 @@ h4 {
     font-family: Menlo, Monaco, fixed-width;
 }
 
+h2 {
+    color: #e9dad8;
+    font-size: 25px;
+    font-family: Menlo, Monaco, fixed-width;
+}
+
 p {
     color: white;
     font-family: "Source Code Pro", Menlo, Monaco, fixed-width;
