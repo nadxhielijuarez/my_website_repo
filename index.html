@@ -1,286 +1,224 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<html>
 <head>
+  <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta name="HandheldFriendly" content="true">
+  <link rel="shortcut icon" href="https://img.icons8.com/metro/2x/code.png" >
+  </head>
+<body>
+<title>NadCodes</title>
+<link type="text/css" rel="stylesheet" href="pink.css" >
+<link type="text/css" rel=" alternate stylesheet" href="pink.css"  title="pink" >
+<link type="text/css" href="blue.css" rel="alternate stylesheet" title="Blue" />
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Roboto&family=Source+Serif+Pro:wght@200&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond&family=Poppins&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400&family=Open+Sans&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="">
-    <meta name="author" content="">
+<div class="topnav" id="myTopnav">
+	<button onclick = "changeTheme('pink.css', 'blue.css')">Change theme</button>
+	<a href = "./index.html"> Home</a> 
+	<a href ="./TimeLine.html">Qualifications</a> 
+	<a href ="#SquareTitle">Activities/Hobbie</a>
+	<a href ="./Projects.html" > My Projects</a>
+	<a href ="./proglan.html">Programming Languages</a> 
+	<a href= "./Spring_2022Resume.pdf"> Resume</a>
+	<a href="javascript:void(0);" class="icon" onclick="myFunction()">
+		<i class="fa fa-bars"></i>
+    </a>
+</div> 
 
-    <title>Creative - Start Launching</title>
 
-    <!-- Bootstrap Core CSS -->
-    <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
+<div id="HeadingContain" class="vertical-line">
+	<h1>About</h1><br>
+	<h1 class="MeTxt"> Me </h1>
+</div>
 
-    <!-- Custom Fonts -->
-    <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
-    <link href='http://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css" type="text/css">
+<div class = "intro" >I am currently an aspiring software developer, studying Computer Engineering at Texas A&M, with an interest in software development.<br> <br>	
+Life Philosophy: Life is about making the best of the time and place you find yourself in to continue to progress forward.<br>
+My interests and hobbies can be summed with: being involved in my community, carpentry, art (painting), web-development, entrepreneurship, self-development. <br> 
+In sum, my friends would describe me as ambitious, kind, and driven. <br>
 
-    <!-- Plugin CSS -->
-    <link rel="stylesheet" href="css/animate.min.css" type="text/css">
+<br>
 
-    <!-- Custom CSS -->
-    <link rel="stylesheet" href="css/creative.css" type="text/css">
+What draws me to the world of tech, is a desire to help others, I love that technology simplifies our lives, and want to be part of that. Of the existing tech fields, <br>
+I feel that the simplest way to reach and assist as many people as possible, can best be achieved through some sort of application or software, since so much of what <br>
+ we do revolves around software. <br>
+ <br>
+It is for this reason that I am drawn to companies with a user-oriented culture. I hope to contribute to a product that can assist the lives of many on a daily basis. <br>
+hope to take part of a team that actively keeps the user experience in mind.<br>
+I also hope to continue to grow my technical skill set well after my time in college, and for this reason I hope to end up at a company with plenty technical growth opportunities. <br>
+I also hope to have some degree of work life balance so that I can work on my other related hobbies and interests, like carpentry, and entrepreneurship.  <br>
 
-    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-    <![endif]-->
 
-</head>
+In the future I would like to continue to work towards impacting the community I find myself in some impactful way. <br> 
+Currently through AHICS, I can work towards creating a more welcoming environment for Hispanics in computing related fields and am able to share my passion for my culture. <br>
+ Previously, in high school I worked towards increasing educational opportunities for my classmates, and in the beginning of my college career I took part in initiatives <br> 
+ related to increasing educational opportunities, like SWE Inspire, and Aggie STEM. In the future I would like to put together a scholarship fund for my high school and  <br>
+ other underprivileged communities like it.
 
-<body id="page-top">
+</div>
 
-    <nav id="mainNav" class="navbar navbar-default navbar-fixed-top">
-        <div class="container-fluid">
-            <!-- Brand and toggle get grouped for better mobile display -->
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                <a class="navbar-brand page-scroll" href="#page-top">Start Launching</a>
-            </div>
+<div class = "containArrow"> 
+	<img  class= "downArrow" src="Arrow.png">
+</div>
 
-            <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                <ul class="nav navbar-nav navbar-right">
-                    <li>
-                        <a class="page-scroll" href="#about">About</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#services">Services</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#portfolio">Portfolio</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#contact">Contact</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="./demo0.html">Demo!</a>
-                    </li>
-                </ul>
-            </div>
-            <!-- /.navbar-collapse -->
-        </div>
-        <!-- /.container-fluid -->
-    </nav>
+<div class= "parentDiv">
+	<section class="SquareTitle-1 " id= "ScrollSection">
 
-    <header>
-        <div class="header-content">
-            <div class="header-content-inner">
-                <h1>{Change goes here} Favorite Course is CSCE 412 - Cloud Computing</h1>
-                <hr>
-                <p>This demo's primary goal is to learn how to use AWS cloud to launch you own website!</p>
-                <a href="#about" class="btn btn-primary btn-xl page-scroll">Find Out More</a>
-            </div>
-        </div>
-    </header>
 
-    <section class="bg-primary" id="about">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-8 col-lg-offset-2 text-center">
-                    <h2 class="section-heading">We've covered all the steps!</h2>
-                    <hr class="light">
-                    <p class="text-faded">This simple demo has everything you need to get your new website up and running in no time! All of the steps on Start Launching are easy to follow, quick to complete. No strings attached!</p>
-                    <a href="#" class="btn btn-default btn-xl">Get Started!</a>
-                </div>
-            </div>
-        </div>
-    </section>
+		<div class="row">
+			<div class="column" id= "LeftPhoto">
+				<div class = "SectionTitles">
+				My Projects
+				</div>
+				<div class= "Sectionsub-paragraphs">
+					
+						What I'm up to, and what I'll do next.
+					
+				</div>
+				<button onclick="window.location = './Projects.html'"> View</button>
+			</div>
+			
+			<div class="column">
+				<p>
+				
+				</p>
+			</div>
+	</div>
 
-    <section id="services">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h2 class="section-heading">At Your Service</h2>
-                    <hr class="primary">
-                </div>
-            </div>
-        </div>
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-3 col-md-6 text-center">
-                    <div class="service-box">
-                        <i class="fa fa-4x fa-diamond wow bounceIn text-primary"></i>
-                        <h3>Sturdy Texts</h3>
-                        <p class="text-muted">Just another sample line that has nothing important to say.</p>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6 text-center">
-                    <div class="service-box">
-                        <i class="fa fa-4x fa-paper-plane wow bounceIn text-primary" data-wow-delay=".1s"></i>
-                        <h3>Accepting Changes</h3>
-                        <p class="text-muted">You can use this demo as is, or you can make changes as you follow along!</p>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6 text-center">
-                    <div class="service-box">
-                        <i class="fa fa-4x fa-newspaper-o wow bounceIn text-primary" data-wow-delay=".2s"></i>
-                        <h3>Up to Date</h3>
-                        <p class="text-muted">We update every steps as it updates on AWS to keep things fresh.</p>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6 text-center">
-                    <div class="service-box">
-                        <i class="fa fa-4x fa-heart wow bounceIn text-primary" data-wow-delay=".3s"></i>
-                        <h3>Coded with Love</h3>
-                        <p class="text-muted">You have to make your websites with love these days!</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
 
-    <section class="no-padding" id="portfolio">
-        <div class="container-fluid">
-            <div class="row no-gutter">
-                <div class="col-lg-4 col-sm-6">
-                    <a href="#" class="portfolio-box">
-                        <img src="img/portfolio/1.jpg" class="img-responsive" alt="">
-                        <div class="portfolio-box-caption">
-                            <div class="portfolio-box-caption-content">
-                                <div class="project-category text-faded">
-                                    Category
-                                </div>
-                                <div class="project-name">
-                                    Project Name
-                                </div>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-                <div class="col-lg-4 col-sm-6">
-                    <a href="#" class="portfolio-box">
-                        <img src="img/portfolio/2.jpg" class="img-responsive" alt="">
-                        <div class="portfolio-box-caption">
-                            <div class="portfolio-box-caption-content">
-                                <div class="project-category text-faded">
-                                    Category
-                                </div>
-                                <div class="project-name">
-                                    Project Name
-                                </div>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-                <div class="col-lg-4 col-sm-6">
-                    <a href="#" class="portfolio-box">
-                        <img src="img/portfolio/3.jpg" class="img-responsive" alt="">
-                        <div class="portfolio-box-caption">
-                            <div class="portfolio-box-caption-content">
-                                <div class="project-category text-faded">
-                                    Category
-                                </div>
-                                <div class="project-name">
-                                    Project Name
-                                </div>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-                <div class="col-lg-4 col-sm-6">
-                    <a href="#" class="portfolio-box">
-                        <img src="img/portfolio/4.jpg" class="img-responsive" alt="">
-                        <div class="portfolio-box-caption">
-                            <div class="portfolio-box-caption-content">
-                                <div class="project-category text-faded">
-                                    Category
-                                </div>
-                                <div class="project-name">
-                                    Project Name
-                                </div>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-                <div class="col-lg-4 col-sm-6">
-                    <a href="#" class="portfolio-box">
-                        <img src="img/portfolio/5.jpg" class="img-responsive" alt="">
-                        <div class="portfolio-box-caption">
-                            <div class="portfolio-box-caption-content">
-                                <div class="project-category text-faded">
-                                    Category
-                                </div>
-                                <div class="project-name">
-                                    Project Name
-                                </div>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-                <div class="col-lg-4 col-sm-6">
-                    <a href="#" class="portfolio-box">
-                        <img src="img/portfolio/6.jpg" class="img-responsive" alt="">
-                        <div class="portfolio-box-caption">
-                            <div class="portfolio-box-caption-content">
-                                <div class="project-category text-faded">
-                                    Category
-                                </div>
-                                <div class="project-name">
-                                    Project Name
-                                </div>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-            </div>
-        </div>
-    </section>
+	</section>
 
-    <aside class="bg-dark">
-        <div class="container text-center">
-            <div class="call-to-action">
-                <h2>Free Download this on Canvas!</h2>
-                <a href="#" class="btn btn-default btn-xl wow tada">Download Now!</a>
-            </div>
-        </div>
-    </aside>
+	<section id="SquareTitle" id= "ScrollSection">
+		
+		<div class="CenteredTitles" id= "Hobbie">
+			
+			Activities/Hobbies
+		</div>
+		
+		<h3>
+			Click on image to view completed projects or related links
+		</h3>
+		<div class="ItemsRow">
+			<div class="HobbySection">
+				<img class= "HobbyImg" id="Books"src= "https://img.icons8.com/ios/2x/book-shelf.png">
+				<h3>Reading </h3>
+				<div class= "Sectionsub-paragraphs"> I like about read self-development. </div>
+			</div>
+			
+			<div class="HobbySection">
+				<img class="HobbyImg" id="Writing" src="https://img.icons8.com/pastel-glyph/2x/typewriter-with-paper.png">
+				<h3>Writing </h3>
+				<div class= "Sectionsub-paragraphs"> A great way to clear my mind. </div>
+			</div>
+			
+			<div class="HobbySection">
+				<img class="HobbyImg" id="Cooking" src="https://img.icons8.com/pastel-glyph/2x/kitchenwares.png">
+				<h3>Cooking/baking </h3>
+				<div class= "Sectionsub-paragraphs"> Spending the time to explore a new recipe is the best way to destress.</div>
+			</div>
 
-    <section id="contact">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-8 col-lg-offset-2 text-center">
-                    <h2 class="section-heading">Let's Get In Touch!</h2>
-                    <hr class="primary">
-                    <p>Ready to start your next phase of this project? That's great! Give us a week or so and we will get back to you as soon as possible!</p>
-                </div>
-                <div class="col-lg-4 col-lg-offset-2 text-center">
-                    <i class="fa fa-phone fa-3x wow bounceIn"></i>
-                    <p>123-456-6789</p>
-                </div>
-                <div class="col-lg-4 text-center">
-                    <i class="fa fa-envelope-o fa-3x wow bounceIn" data-wow-delay=".1s"></i>
-                    <p><a href="mailto:your-email@your-domain.com">feedback@csce412.xyz</a></p>
-                </div>
-            </div>
-        </div>
-    </section>
+			
+			<div class="HobbySection">
+				<img class="HobbyImg" id="Carpentry" onclick="ClickIcon('Carpentry','https://twitter.com/CarpentryBy' )" src="https://img.icons8.com/dotty/2x/circular-saw.png" >
+				<h3>Carpentry/DIYs </h3>
+				<div class= "Sectionsub-paragraphs"> I love carpentry, it's like putting together a puzzle, with pieces that just kind of unfold themselves along the way. I genuinely enjoy the freedom of crafting something tangible and functional.</div>
+			</div>
+		</div>
+		<div class="ItemsRow">
+			<div class="HobbySection">
+				<img class ="HobbyImg" id="Code" src="https://img.icons8.com/pastel-glyph/2x/code.png">
+				<h3>Code </h3>
+				<div class= "Sectionsub-paragraphs">I have so much left to learn, but its so gratifying to create something functional that improves either my life or the lives of my friends, with just lines of code. </div>
+			</div>
+			<div class="HobbySection">
+				<img class = "HobbyImg" id="Art" src="https://img.icons8.com/ios/2x/easel.png">
+				<h3>Art (Medium - Oil on Canvas) </h3>
+				<div class= "Sectionsub-paragraphs"> A great medium to express abstract ideas.</div>
+			</div> 
+			<div class="HobbySection">
+				<img class="HobbyImg" id="AHIC" onclick="ClickIcon('AHIC', 'https://www.ahic-tamu.org/' )" src="https://images.squarespace-cdn.com/content/5f2d7ff538045b5471a63a27/1601846691481-76H80FG93RTTO92MEPW1/AHIC+Final+Logo%400.5x.png?content-type=image%2Fpng" href="https://www.ahic-tamu.org/">
+				<h3>Aggie Hispanics In Computing </h3>
+				<div class= "Sectionsub-paragraphs"> As an officer/member of Aggie Hispanics in Computing I hope to help create a supportive community for our members
+				 to navigate their way through the tech industry. </div>
+			</div>
+		</div>
+	  
+	</section>
+	<section class="SquareTitle-2 " id= "ScrollSection">
 
-    <!-- jQuery -->
-    <script src="js/jquery.js"></script>
 
-    <!-- Bootstrap Core JavaScript -->
-    <script src="js/bootstrap.min.js"></script>
+		<div class="row">
+			<div class="column" id = "LeftPhoto" >
+				<div class = "SectionTitles">
+          Qualifications
+				</div>
+				
+				<div class= "Sectionsub-paragraphs">
+					
+						Exactly what I've been up to, and some personal goals.
+					
+				</div>
+				<button  onclick= "window.location.href = './TimeLine.html'"> View</button>
+				
+				
+			</div>
+			<div class="column">
+				<p>
+				
+				</p>
+			</div>
+		</div>
 
-    <!-- Plugin JavaScript -->
-    <script src="js/jquery.easing.min.js"></script>
-    <script src="js/jquery.fittext.js"></script>
-    <script src="js/wow.min.js"></script>
 
-    <!-- Custom Theme JavaScript -->
-    <script src="js/creative.js"></script>
+	</section>
+	
+	<section class="SquareTitle-3 " id= "ScrollSection">
+			<div class="row">
+			<div class="column" id = "LeftPhoto" >
+				<div class = "SectionTitles">
+				Programming Languages
+				</div>
+				
+				<div class= "Sectionsub-paragraphs">
+					
+						The languages I have learned thus far
+					
+				</div>
+				<button  onclick= "window.location.href = './proglan.html'"> View</button>
+			</div>
+			
+			<div class="column">
+				<p>
+				
+				</p>
+			</div>
+		</div>
+	
+	</section>
 
-</body>
 
+
+
+</div>
+
+<div id= "landingFooter">
+	<footer>
+		<div> Get In Touch!</div>
+		<img class="footerImg" id="Linkedin" onclick="ClickIcon( 'Linkedin', 'https://www.linkedin.com/in/nadxhieli-juarez-6b3595191/')" src ="https://img.icons8.com/carbon-copy/2x/linkedin.png" >
+		<img class= "footerImg" id="Github" onclick =" ClickIcon( 'Github', 'https://github.com/nadxhielijuarez')"     src="https://img.icons8.com/carbon-copy/2x/github.png" >
+		<img class= "footerImg" id="Twitter"  onclick = "ClickIcon( 'Twitter', 'https://twitter.com/nadxhieli8')"    src="https://img.icons8.com/carbon-copy/344/twitter--v1.png" >
+	</footer>
+</div>
+
+	
+
+
+<script src="main.js">  </script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+<body>
 </html>

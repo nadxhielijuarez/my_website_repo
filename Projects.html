@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta name="HandheldFriendly" content="true">
+  <link rel="shortcut icon" href="https://img.icons8.com/metro/2x/code.png" >
+  </head>
+<body>
+<title>Nad Codes</title>
+<link rel="stylesheet" href="pink.css">
+<link rel="stylesheet" href="pinkProjects.css">
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Roboto&family=Source+Serif+Pro:wght@200&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond&family=Poppins&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400&family=Open+Sans&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<div class="topnav" id="myTopnav">
+	<button onclick = "changeInnerTheme('pinkProjects.css', 'blueProjects.css')">Change theme</button>
+	<a href = "./index.html"> Home</a> 
+	<a href ="./TimeLine.html">Qualifications</a> 
+	<a href ="./index.html#SquareTitle">Activities/Hobbie</a>
+	<a href ="./Projects.html" > My Projects</a>
+	<a href ="./proglan.html">Programming Languages</a> 
+	<a href= "./Spring_2022Resume.pdf"> Resume</a>
+	<a href="javascript:void(0);" class="icon" onclick="myFunction()">
+		<i class="fa fa-bars"></i>
+    </a>
+</div>  
+
+<div class = "outer"> 
+
+	<div class= "Project" id="CarpentryProj" > 
+		<div class="Column">
+			<img class = "ProjImg" id="Carpentry" src= "CarpentryImg.jpg" onmouseover="hoverEffect('Carpentry', './CarpentryGif.gif')" onmouseout="removeEffect('Carpentry', './CarpentryImg.jpg')"  > </img>	
+			<div class = "ProjectTitle">Carpentry By Nad Website</div>
+			<div class = "Sectionsub-paragraphs"> Planning to create a website for my business. This website should make it easy for customers to put in their custom orders.
+		</div>
+
+	</div>
+
+	</div>
+
+	<div class= "Project" id="SpotifyProj"  > 
+		<div class="Column">
+
+		
+			<img  class = "ProjImg" id="Spotify" src= "./SpotifyImg.png"  onmouseover="hoverEffect('Spotify', './SpotifyGif.gif')" onmouseout="removeEffect('Spotify', './SpotifyImg.png')" > </img>
+			<div class = "ProjectTitle" > Spotify Playlist Generator</div>
+			<div class = "Sectionsub-paragraphs">Makes use of spotify API to obtain Users's most listened to Genres. Then takes those genres or most
+				listened to songs and generates different playlists per genre/song with reccomended songs. </div>
+			</div>
+		</div>
+
+</div>
+
+<footer >
+	<div> Get In Touch!</div>
+	<img class="footerImg" id="Linkedin" onclick="ClickIcon( 'Linkedin', 'https://www.linkedin.com/in/nadxhieli-juarez-6b3595191/')" src ="https://img.icons8.com/carbon-copy/2x/linkedin.png" >
+	<img class= "footerImg" id="Github" onclick =" ClickIcon( 'Github', 'https://github.com/nadxhielijuarez')"     src="https://img.icons8.com/carbon-copy/2x/github.png" >
+	<img class= "footerImg" id="Twitter"  onclick = "ClickIcon( 'Twitter', 'https://twitter.com/nadxhieli8')"    src="https://img.icons8.com/carbon-copy/344/twitter--v1.png" >
+</footer>
+
+
+<script src="main.js">  </script>
+
+<script src="Projects.js"> </script>
+
+
+</body>

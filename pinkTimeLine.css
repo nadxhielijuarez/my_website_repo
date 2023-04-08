@@ -1,0 +1,168 @@
+body{
+    background-color:#faf7e894;
+}
+
+.EmptySpace{
+	margin: 25%;
+	font-family: 'Cormorant Garamond', serif;
+	font-size: 50px;
+
+}
+
+
+.colLeft{
+    border-right: 5px solid #b38e87;
+	float: left;
+	width:50%;
+	border-width: 5px;
+	height:100%;
+	text-align: center;
+	position: relative;
+}
+
+.colRight{
+	float: right;
+	width:45%;
+	height:100%;
+	text-align: center;
+
+
+}
+
+.timeTitle{
+	font-family: 'Cormorant Garamond', serif
+	font-weight:600;
+	font-size:25px;
+	text-align:center;
+	margin-right:3%;
+	text-decoration: underline;
+	color: #4c4c66;
+	margin-top: 5%;
+
+
+}
+
+.colRight .Date{
+	font-family: 'Merriweather', serif;
+	font-weight:400;
+	font-size:25px;
+	width:50%;
+	margin: 5% 0% 0% -11%;
+	text-align:center;
+	color: #4c4c66;
+	border-bottom: 5px solid #b38e87;
+}
+
+
+.colLeft .Date{
+	font-family: 'Merriweather', serif;
+	font-weight:400;
+	font-size:25px;
+	margin-top:10%;
+	text-align:right;;
+	color: #4c4c66;
+	border-bottom: 5px solid #b38e87;
+	width:250px;
+	margin: 5% 0% 0% 66%;
+}
+
+.Summary{
+	margin-top:15px;
+	display:inline;
+	font-size:15px;
+	font-family:"Roboto";
+	overflow:hidden;
+	width:25ch;
+	display-content: center;
+	text-align:center;
+	color: #6b6565;
+	
+}
+
+.row{
+	align-items: flex-start;
+	height:250px;
+	overflow:hidden;
+	
+}
+
+@media (max-width: 600px){
+	.Summary{
+		display:inline;
+
+	}
+	.colRight{
+		overflow:hidden;
+		margin-left:0%;
+		margin:0px;
+		
+	}
+	.timeTitle{
+		margin-left:0px;
+	}
+	
+	.colLeft{
+		width:50%;
+		margin-left:0%;
+		align-content:center;
+
+		
+	}
+	.colRight .Date{
+	font-family: 'Merriweather', serif;
+	font-weight:400;
+	font-size:25px;
+	width:50%;
+	margin: 10% 0% 0% -1%;
+	text-align:center;
+	color: #4a4444;
+	border-bottom: 5px solid #b38e87;
+    }
+
+    .colLeft .Date:before{
+    	width:50%;
+    }
+    
+    .colLeft .Date{
+	font-family: 'Merriweather', serif;
+	font-weight:400;
+	font-size:25px;
+	margin: 10% 0% 0% 5%;
+	text-align:center;
+	color: #4a4444;
+	width:150px;
+	border-bottom: 5px solid #b38e87;
+    }
+
+
+	.row{
+		align-items: flex-start;
+		height:500px;
+	}
+
+}
+
+@media(min-width: 600px) and (max-width: 1290px){
+
+    .timeTitle{
+	font-family: 'Cormorant Garamond', serif
+	font-weight:600;
+	font-size:25px;
+	text-align:center;
+	margin-right:3%;
+	text-decoration: underline;
+	color: #4a4444;
+    }
+        
+    .colLeft .Date{
+	font-family: 'Merriweather', serif;
+	font-weight:400;
+	font-size:25px;
+	margin: 10% 0% 0% 70%;
+	text-align:center;
+	color: #4a4444;
+	width:150px;
+	border-bottom: 5px solid #b38e87;
+    }
+
+}

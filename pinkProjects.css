@@ -1,0 +1,39 @@
+body{
+	background-color:#faf7e894;
+}
+
+.Project{
+	margin-top: 15%;
+	justify-content:center;
+	width: 500px;
+	display: flex;
+}
+
+.outer{
+	display:flex;
+	justify-content:center;
+}
+
+.ProjImg{
+	height:auto;
+	overflow:hidden;
+	width: 200px;
+	margin-left:20%;
+}
+
+.ProjectTitle{
+	font-family: 'Poppins', sans-serif;
+	color:#545252;
+	font-weight: 700;
+	text-align:center;
+
+		
+}
+
+.Sectionsub-paragraphs{
+	color: #7e7979;
+	font-size:small;
+	width: 40ch;
+	text-align:center;
+}
+	
